@@ -17,10 +17,10 @@ results wherever they exist. Every script is self-contained.
 
 ## Running it
 
-Python 3.12 or newer is required. Install the three dependencies first.
+Python 3.12 or newer is required. Install the three dependencies first with [uv](https://docs.astral.sh/uv/).
 
 ```sh
-pip install -r requirements.txt
+uv sync
 ```
 
 Run each script from the repository root, since the figure output path is relative to the
